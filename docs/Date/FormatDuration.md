@@ -1,8 +1,6 @@
-### FormatDuration
+## FormatDuration
 
 Returns the human readable format of the given number of milliseconds.
-
----
 
 - Divide `ms` with he appropriate values to obtain the values for `day`, `hour`, `minute`, `second` and `millisecond`, in a dictionary.
 - Use Linq `Where`  to keep only non-zero values.
