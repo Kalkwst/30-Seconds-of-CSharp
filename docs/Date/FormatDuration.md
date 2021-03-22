@@ -12,28 +12,29 @@ Returns the human readable format of the given number of milliseconds.
 ### C#
 
 ```csharp
- public static string FormatDuration(long ms)
-        {
-            if (ms < 0)
-            {
-                ms = -ms;
-            }
+public static string FormatDuration(long ms)
+{
+    if (ms < 0)
+    {
+        ms = -ms;
+    }
 
-            Dictionary<string, long> time = new()
-            {
-                { "day", (long)Math.Floor(ms / 86400000d) },
-                { "hour", (long)Math.Floor(ms / 3600000d) % 24 },
-                { "minute", (long)Math.Floor(ms / 60000d) % 60 },
-                { "second", (long)Math.Floor(ms / 1000d) % 60 },
-                { "millisecond", (long)Math.Floor((double)ms % 1000) }
-            };
+    Dictionary<string, long> time = new()
+    {
+        { "day", (long)Math.Floor(ms / 86400000d) },
+        { "hour", (long)Math.Floor(ms / 3600000d) % 24 },
+        { "minute", (long)Math.Floor(ms / 60000d) % 60 },
+        { "second", (long)Math.Floor(ms / 1000d) % 60 },
+        { "millisecond", (long)Math.Floor((double)ms % 1000) }
+    };
 
-            return string.Join(", ",
-                time
-                .Where(val => val.Value != 0)
-                .Select(val => string.Format("{0} {1}{2}", val.Value, val.Key, (val.Value != 1 ? "s" : "")))
-                .ToArray());
-        }
+    return string.Join(", ",
+        time
+        .Where(val => val.Value != 0)
+        .Select(val => string.Format("{0} {1}{2}", val.Value, val.Key, (val.Value != 1 ? "s" : "")))
+        .ToArray());
+    }
+}
 ```
 
 ### Examples
