@@ -29,6 +29,10 @@ namespace _30_Seconds_of_CSharp_Test.Maths
             Assert.IsTrue(MathUtils.ApproximatelyEqual(0.5, 0.5));
         }
 
-        public void ApproximatelyEquals_CustomEp
+        [Test]
+        public void ApproximatelyEquals_CustomEpsilon()
+        {
+            Assert.IsTrue(MathUtils.ApproximatelyEqual(0.501, 0.5, 0.1));
+        }
     }
 }
