@@ -19,7 +19,7 @@ namespace _30_Seconds_of_CSharp_Test.Date
         [Test]
         public void IsBetweenDates_False()
         {
-            Assert.IsTrue(DateUtils.IsBetweenDate(
+            Assert.IsFalse(DateUtils.IsBetweenDate(
                 new DateTime(2010, 11, 20),
                 new DateTime(2010, 11, 30),
                 new DateTime(2010, 11, 19)));
