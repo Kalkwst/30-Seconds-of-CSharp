@@ -1,3 +1,7 @@
 # Contents
 
-## [:date: Date]("docs/Date/README.md")
+## [:date: Date](docs/Date/README.md)
+<details>
+  <summary>Expand</summary>
+
+</details>
