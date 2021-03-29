@@ -46,9 +46,9 @@ public static decimal Average(params decimal[] array)
 ```
 
 ```csharp
-public static decimal Average(params decimal[] array)
+public static double Average(params double[] array)
 {
-    decimal avg = 0;
+    double avg = 0;
     for (int i = 0; i < array.Length; i++)
     {
         avg += array[i] / array.Length;
