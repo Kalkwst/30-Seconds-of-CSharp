@@ -10,7 +10,7 @@ Calculates the date after adding the given number of business days.
 
 Calculates the date of `n` days ago from a given date.
 
-## [DaysFromNow](DaysFromNow.md)
+## [DaysFromNow](snippet/DaysFromNow.md)
 
 Calculates the date of `n` days from today.
 
