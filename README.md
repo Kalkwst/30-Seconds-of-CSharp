@@ -104,3 +104,7 @@ Converts a number to an array of digits, removing its sign if necessary.
 ### [Distance](snippets/Distance)
 
 Calculates the distance between two points in a 2D plane.
+
+### [DivMod](snippets/DivMod)
+
+Returns an array consisting of the quotient and remainder of the given numbers.
