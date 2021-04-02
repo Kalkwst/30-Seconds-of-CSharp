@@ -72,39 +72,39 @@ Checks if two numbers are approximately equal to each other.
 
 Creates an array of numbers in the arithmetic progression, starting with a given positive integer and up to the specified limit.
 
-### [Average](docs/Math/snippets/Average)
+### [Average](docs/Math/snippets/Average.md)
 
 Calculates the average of two or more numbers.
 
-### [BinomialCoefficient](docs/Math/snippets/BinomialCoefficient)
+### [BinomialCoefficient](docs/Math/snippets/BinomialCoefficient.md)
 
 Calculates the number of ways to choose `k` items from `n` items without repetition and
 without order.
 
-### [CartesianProduct](docs/Math/snippets/CartesianProduct)
+### [CartesianProduct](docs/Math/snippets/CartesianProduct.md)
 
 Calculates the cartesian product of two given arrays.
 
-### [ClampNumber](docs/Math/snippets/ClampNumber)
+### [ClampNumber](docs/Math/snippets/ClampNumber.md)
 
 Clamps `num` within the inclusive range specified by the boundary values `lower` and `upper`.
 
-### [CopySign](docs/Math/snippets/CopySign)
+### [CopySign](docs/Math/snippets/CopySign.md)
 
 Returns the absolute value of the first number, but the sign of the second.
 
-### [DegreesToRads](docs/Math/snippets/DegreesToRads)
+### [DegreesToRads](docs/Math/snippets/DegreesToRads.md)
 
 Converts an angle from degrees to radians.
 
-### [Digitize](docs/Math/snippets/Digitize)
+### [Digitize](docs/Math/snippets/Digitize.md)
 
 Converts a number to an array of digits, removing its sign if necessary.
 
-### [Distance](docs/Math/snippets/Distance)
+### [Distance](docs/Math/snippets/Distance.md)
 
 Calculates the distance between two points in a 2D plane.
 
-### [DivMod](docs/Math/snippets/DivMod)
+### [DivMod](docs/Math/snippets/DivMod.md)
 
 Returns an array consisting of the quotient and remainder of the given numbers.
