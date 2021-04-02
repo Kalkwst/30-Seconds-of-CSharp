@@ -50,3 +50,4 @@ Returns an array consisting of the quotient and remainder of the given numbers.
 ## [Factorial](snippets/Factorial.md)
 
 Calculates the factorial of a number.
+
