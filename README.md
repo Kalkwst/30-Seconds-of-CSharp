@@ -59,7 +59,7 @@ Results in a string representation of yesterday's date.
 
 </details>
 
-## [÷ Math](docs/Math/README.md)
+## [➗ Math](docs/Math/README.md)
 
 <details>
   <summary>Expand</summary>
