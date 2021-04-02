@@ -43,6 +43,12 @@ Converts a number to an array of digits, removing its sign if necessary.
 
 Calculates the distance between two points in a 2D plane.
 
+<<<<<<< HEAD
 ## [DivMod](snippets/DivMod.md)
 
 Returns an array consisting of the quotient and remainder of the given numbers.
+=======
+## [DivMod](snippets/DivMod)
+
+Returns an array consisting of the quotient and remainder of the given numbers.
+>>>>>>> 50beb8c (:memo: Update ToC)
